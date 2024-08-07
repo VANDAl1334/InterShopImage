@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  InterShop:
+    image: vandal1334/intershop:latest
+    ports:
+      - "5000:80"
